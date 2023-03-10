@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+
+/* CSS files of components */
+@import url("/components/avatar/avatar.css");
+@import url("/components/alert/alert.css");
+@import url("/components/badge/badge.css");
+@import url("/components/button/button.css");
+@import url("/components/card/card.css");
+@import url("/components/grid/grid.css");
+@import url("/components/image/image.css");
+@import url("/components/input/input.css");
+@import url("/components/list/list.css");
+@import url("/components/modal/modal.css");
+@import url("/components/navigation/navigation.css");
+@import url("/components/rating/rating.css");
+@import url("/components/slider/slider.css");
+@import url("/components/toast/toast.css");
+@import url("/components/typography/typography.css");
+
+/* Reset CSS */
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+i {
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+:root {
+  --primary-color: #8553fa;
+  --primary-hover: #7942fa;
+  --primary-disabled: #c4b5fb;
+
+  --white: #fff;
+  --bg-color: #ebebeb;
+  --bg-secondary: #c0c0c0;
+
+  --black: #000;
+  --text-color: #1e1e1e;
+  --text-secondary: #2e2e2e;
+
+  --border-radius: 0.25rem;
+
+  --status-online: #00af00;
+  --status-offline: #808080;
+  --status-dnd: #ff0000;
+
+  --success-bg: #a3ff9b;
+  --success-color: #2bd825;
+  --success-hover: #17cf11;
+  --warning-bg: #fcf086;
+  --warning-color: #fdcf00;
+  --warning-hover: #f0d800;
+  --danger-bg: #ff9d9d;
+  --danger-color: #ff2c2c;
+  --danger-hover: #ee1e1e;
+
+  --heading-1: 48px;
+  --heading-2: 32px;
+  --heading-3: 24px;
+  --heading-4: 16px;
+  --heading-5: 8px;
+
+  --line-ht-1: 64px;
+  --line-ht-2: 40px;
+  --line-ht-3: 32px;
+  --line-ht-4: 24px;
+  --line-ht-5: 16px;
+}
+
+/* iframe */
+
+iframe {
+  width: 100%;
+  height: 300px;
+  border: 0;
+  transform: scale(1);
+  overflow: visible;
+}
